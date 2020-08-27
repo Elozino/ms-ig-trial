@@ -43,7 +43,7 @@ class  App extends Component {
                 
                 <div className='container'>
                     <div className='row'>
-                        <div className='col-4'>
+                        
                             <div className="card" style={{width: "18rem;"}}>
                                 <img src="https://res.cloudinary.com/azinohub/image/upload/v1593519400/samples/bike.jpg" className="card-img-top" alt="..." />
                                 <div className="card-body">
@@ -52,9 +52,9 @@ class  App extends Component {
                                 <button onClick={this.clickLike} className="btn-info m-1" style={{width: "20%", borderRadius: "5px"}}>Like</button>
                                 <small className="ml-2">{this.state.likes}</small>
                             </div>  
-                        </div>
+                        
 
-                        <div className='col-4'>
+                        
                             <div className="card" style={{width: "18rem;"}}>
                                 <img src="https://res.cloudinary.com/azinohub/image/upload/v1593519403/samples/ecommerce/leather-bag-gray.jpg" className="card-img-top" alt="..." />
                                 <div className="card-body">
@@ -63,9 +63,9 @@ class  App extends Component {
                                 <button onClick={this.clickLike2} className="btn-info m-1" style={{width: "20%", borderRadius: "5px"}}>Like</button>
                                 <small className="ml-2">{this.state.likes2}</small>
                             </div>  
-                        </div>
+                        
 
-                        <div className='col-4'>
+                        
                             <div className="card" style={{width: "18rem;"}}>
                                 <img src="https://res.cloudinary.com/azinohub/image/upload/v1593519400/samples/people/jazz.jpg" className="card-img-top" alt="..." />
                                 <div className="card-body">
@@ -74,7 +74,7 @@ class  App extends Component {
                                 <button onClick={this.clickLike3} className="btn-info m-1" style={{width: "20%", borderRadius: "5px"}}>Like</button>
                                 <small className="ml-2">{this.state.likes3}</small>
                             </div>  
-                        </div>
+                       
                     </div>
                 </div>
 
